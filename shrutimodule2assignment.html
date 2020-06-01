@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head> <meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>MY Assignment</title>
+	<style type="text/css">
+		*{box-sizing: border-box;
+			margin: 1px;
+			padding: 1px;}
+	 h1{text-align:center;
+	 	margin: 50px;}
+		body{ background-color: #051937;
+			color:white;
+			 }
+
+			 
+	section{
+			 background-color: seagreen;
+             width: 90%;
+             border: 2px solid black;
+             margin-top: 40px;
+             margin-right: auto;
+             margin-left: auto;
+             font-family: Helvetica;
+             color: white;
+             position: relative;
+	}
+	span>p{ 
+		float: right;
+		
+		width:100px;
+
+		margin-bottom: 2px;
+		border: 3px solid black;
+		
+		
+		position: absolute;
+		top:0em;
+		right: 0em;
+		
+		
+
+	}
+	.ptitle{background-color: orange;
+
+	}
+	
+	@media (min-width: 992px) {
+	 	.sizedesktop{
+	 		width: 33.333%; 
+	 		
+	 
+	 	 float: left;
+	 	}
+
+	 }
+@media (min-width: 768px) and (max-width: 991px) {
+  .sizedesktop .first {
+    width: 50%;
+  }
+
+  section.second {
+    width: 50%;
+  }
+  section.third {
+    width: 100%;
+    /* margin-top: 20px; */
+  }
+}
+@media(max-width: 767px){
+	.sizemobile{
+		width: 100%;
+	}
+}
+
+		
+	</style>
+
+
+   
+</head>
+
+
+<body>
+    <h1>Our Menu</h1>
+    <section class="sizedesktop" class="first" class="sizemobile">
+    	<span><p class="ptitle">Chicken</p></span>
+    	<div><p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+    </section>
+     <section class="sizedesktop" class="second" class="sizemobile">
+    	<span><p class="ptitle">Chicken</p></span>
+    	<div><p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+    </section>
+     <section class="sizedesktop" class="third" class="sizemobile">
+    	<span><p class="ptitle">Chicken</p></span>
+    	<div><p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+    </section>
+</body>
+</html>
